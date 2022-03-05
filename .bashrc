@@ -25,3 +25,5 @@ alias view-config-nginx="cat /etc/nginx/nginx.conf"
 
 #NODE
 alias node-affil-server="cd Affiliate-Template-Server && npm start"
+alias node-affil-server-forever="cd Affiliate-Template-Server && forever server.ts"
+
