@@ -20,10 +20,10 @@ alias copy-www="sudo cp -R www/* /usr/share/nginx/html"
 alias copy-www-admin="sudo cp -R www-admin/* /usr/share/nginx/html-admin"
 alias rs-nginx="sudo systemctl restart nginx"
 alias st-nginx="sudo systemctl status nginx"
+alias reload-nginx="sudo systemctl reload nginx"
 alias config-nginx="sudo nano /etc/nginx/nginx.conf"
 alias view-config-nginx="cat /etc/nginx/nginx.conf"
 
 #NODE
 alias node-affil-server="cd Affiliate-Template-Server && npm start"
 alias node-affil-server-forever="cd Affiliate-Template-Server && forever server.ts"
-
